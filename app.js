@@ -12,7 +12,7 @@ app.use(session({
   secret: 'a5d63fc5-17a5-459c-b3ba-6d81792158fc',
   resave: false,
   saveUninitialized: false,
-}))
+}));
 
 app.use((req, res, next) => {
   // Attempt to get the `history` array from session.
